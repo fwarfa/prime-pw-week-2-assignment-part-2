@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'name' and set it to a string, 'Dane'.
+// We check if the 'name' is equal to 'Mary', if it does we will console log 'Hi Mary!'
+// If it is not equal to 'Mary', which it is not, we will console log 'How do you do?'
+// since the variable, 'name' is not 'Mary' , we will console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret, but we don't set it to anything yet.
+// We make another variable called 'code' and set it equal to the number 123.
+// We check if 'code' is equal to the number 123, if it is we will assign the 
+// string 'super' to the variable secret and multiply 'code' by 2.
+// the variable 'code' is in fact equal 123
+// We then check if code is less than the number 250, which it is, and so it will assign 
+// the string duper to the variable secret
+// We console log 'duper'
 
 //CODE
 /*
@@ -70,10 +74,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it equal to true
+// We make another variable called age and set it equal to the number 34
+// We make another variable called zip and set it equal to the number 55407.
+// We check if the variable isStudent is exactly equal to true and the zip is less then 80000, 
+// If it is true, which it is, we will console log out `You're a student on the West Coast!`
+// Otherwise, we check if isStudent is false or age is less then 30 
+// and will console log 'What are your hobbies?'. This condition is false so we dont log this out.
+// Next we check if isStudent is equal to true, and if it is, we console logs 'Welcome to Prime!'
+// The condition is true so we console log this
+// Otherwise if none of the above conditions is true, we console log 'How about the weather?'
+// Two of the above conditions is true so we don't console log 'How about the weather?'
 
 //CODE
 /*
@@ -130,6 +141,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - the instructions say colorOne is blue and colorTwo is red 
+// Should be: 
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,9 +160,13 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - the instructions say time is a variable, nothing about a const
+// Should be: let time = 4;
 let temp = 40;
 const time = 4;
 
+// FIX - the instructions say 'and' not 'or'
+// Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +179,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - the instructions say if true, the condition should console log 'enter'
+// the instructions also state age before minAge in the condition 
+// Should be: 
+// if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
 
 if(minAge <= age) {
   console.log('no entry');
